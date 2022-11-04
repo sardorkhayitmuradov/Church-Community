@@ -19,7 +19,7 @@
 
 }
 
-.sermon{
+.sermon {
     padding-left: 50px;
 }
 
@@ -31,8 +31,98 @@
     color: #232536;
 }
 
-.sermon h1{
+.sermon h1 {
     font-weight: 700;
-font-size: 48px;
-color: #232536;
+    font-size: 48px;
+    color: #232536;
+}
+
+
+
+/* ------section-2--------- */
+
+.sermons-register-1 {
+    text-align: center;
+}
+
+
+.sermons-register-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #161722;
+    padding-top: 115px;
+    padding-bottom: 15px;
+
+}
+
+.sermons-register-1 h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #161722;
+    padding-bottom: 64px;
+}
+
+
+.sermons-register-2 img {
+    width: 845px;
+    height: 512px;
+    margin-right: -50px;
+}
+
+.sermons-register-2{
+    display: flex;
+    justify-content: space-between;
+    background: #FFF5EB; 
+
+}
+
+.sermons-watch{
+    padding-left: 90px;
+}
+
+.sermons-watch span{
+    text-align: right;
+}
+
+.sermons-watch h5{
+    font-weight: 700;
+font-size: 12px;
+color: #FFD0A0;
+padding-top: 61px;
+padding-bottom: 16px;
+}
+
+
+.sermons-watch h2{
+    font-size: 24px;
+line-height: 28px;
+color: #161722;
+padding-bottom: 16px;
+}
+
+
+.sermons-watch p{
+    font-weight: 400;
+font-size: 16px;
+color: #161722;
+padding-bottom: 32px;
+}
+
+
+.sermons-watch h6{
+    font-weight: 400;
+font-size: 16px;
+color: #161722;
+padding-bottom: 16px;
+display: inline-block;
+
+}
+
+
+.sermons-watch button{
+    background: #161722;
+    padding: 24px 64px;
+    border-radius: 12px;
+    color: #FFD0A0;
+   margin-top: 32px;
 }
