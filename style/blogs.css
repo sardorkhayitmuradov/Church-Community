@@ -1,1 +1,150 @@
 @import "global.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F5F2F0;
+}
+.header>h1 {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722;
+}
+
+.header>h6 {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+text-align: center;
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722;
+}
+
+.header {
+    margin-top: 128px;
+}
+
+.header__content{
+    background: #fff;
+    padding: 58px 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__content_right>h6 {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722;
+}
+
+.header__content_right>h5 {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+margin-bottom: 16px;
+/* or 138% */
+
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722;
+}
+.header__content_right{
+    max-width: 519px;
+}
+.right__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.header__content_right>p {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 16px;
+/* or 150% */
+
+
+/* Black */
+
+color: #161722;
+}
+
+.header__content_right>button {
+    padding: 24px 64px;
+    background: #FFD2A4;
+border-radius: 12px;
+}
+
+.btn{
+    margin-top: 70px;
+}
+.btn>a{
+    background: #FFD2A4;
+    border-radius: 12px;
+    padding: 24px 64px;
+    color: #000;
+}
+
+.blogs>h1 {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722;
+}
+
+.card{
+    max-width: 302px;
+    background: #fff;
+    padding: 48px 32px;
+
+}
+.card__content{
+    
+}
