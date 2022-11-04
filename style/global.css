@@ -28,6 +28,8 @@ input:focus {
   width: 100%;
   background-color: #0d0d0d;
   height: 80px;
+  position: fixed;
+  z-index: 1;
 }
 
 .header_container {
@@ -41,6 +43,7 @@ input:focus {
   right: 0;
   margin-left: auto;
   margin-right: auto;
+  z-index: 1;
 }
 
 .leftheader {
