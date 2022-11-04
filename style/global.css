@@ -33,6 +33,9 @@ input:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: #0d0d0d;
+
 }
 
 .leftheader {
@@ -82,13 +85,19 @@ input:focus {
 /* --------- FOOTER --------- */
 
 .footer {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
   background-color: #161722;
   padding: 64px 0;
+  margin: 0;
 }
 
 .footer_container {
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer_container .finsweet {
