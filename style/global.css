@@ -25,6 +25,7 @@ input:focus {
 /* ---------- HEADER ----------- */
 
 .header {
+  width: 100%;
   background-color: #0d0d0d;
   height: 80px;
 }
@@ -36,8 +37,10 @@ input:focus {
   align-items: center;
   position: fixed;
   background-color: #0d0d0d;
-  
-
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .leftheader {
@@ -84,9 +87,6 @@ input:focus {
   border-radius: 12px;
 }
 
-
-
-
 /* --------- FOOTER --------- */
 
 .footer {
@@ -116,11 +116,11 @@ input:focus {
   color: #ffffff;
 }
 
-.finsweet h3:nth-child(2){
+.finsweet h3:nth-child(2) {
   padding: 31px 0;
 }
 
-.finsweet h3:nth-child(4){
+.finsweet h3:nth-child(4) {
   padding: 16px 0;
 }
 
@@ -162,7 +162,7 @@ input:focus {
   margin-bottom: 20px;
 }
 
-.footer_container .connect a{
+.footer_container .connect a {
   margin-right: 8px;
 }
 
