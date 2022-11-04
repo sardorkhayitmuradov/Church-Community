@@ -1,7 +1,76 @@
 @import "global.css";
 
-.container{
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 0 15px;
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* -------------- MAIN ------------- */
+
+/* ------------ SECTION1 ----------- */
+
+.section1 {
+  width: 100%;
+  background-image: url(../images/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 0;
+}
+
+.section1_container h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section1_container h1 {
+  width: 592px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 16px 0 56px;
+}
+
+.section1_container a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1d28;
+  background: #ffd2a4;
+  border-radius: 12px;
+  padding: 24px 64px;
+}
+
+.section1_container .info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 64px;
+  gap: 15px;
+}
+
+.info hr {
+  width: 18px;
+  height: 0;
+  margin-top: 10px;
+  border-color: #FFD2A4;
+}
+
+.info p {
+  width: 308px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
