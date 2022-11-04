@@ -329,7 +329,7 @@
 /* ----------- SECTION5 ------------ */
 
 .section5 {
-  padding: 120px 0 208px;
+  padding: 120px 0 128px;
 }
 
 .section5 h4 {
@@ -358,6 +358,7 @@
 
 .upcoming {
   display: flex;
+  padding-bottom: 48px;
 }
 
 .upcoming h5 {
@@ -455,6 +456,16 @@
   text-transform: uppercase;
   color: #161722;
   opacity: 1;
+}
+
+.section5 a:nth-child(4) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #161722;
+  display: block;
+  text-align: right;
 }
 
 /* ------------ SECTION6 ------------- */
