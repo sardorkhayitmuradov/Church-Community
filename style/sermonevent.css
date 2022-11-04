@@ -1,1 +1,271 @@
 @import "global.css";
+@import "global.css";
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #F5F2F0;
+    padding-bottom: 128px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sermon_event {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sermon_event_div_1 {
+    width: 60%;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.sermon_event_div_1_h5 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sermon_event_div_1_h2 {
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+
+.sermon_event_div_1_p1 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.sermon_event_div_1_p2 {
+    padding-left: 20px;
+    padding-top: -200px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    line-height: 150%;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.vl {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    height: 120px;
+    border-left: 3px solid #FFD2A4;
+}
+
+.sermon_event_div_1_p3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.sermon_event_div_2 {
+    margin-right: 30px;
+    margin-top: -420px;
+    width: 522px;
+    height: 484px;
+    background: #F7F8FA;
+}
+
+.sermon_event_div_2_h4 {
+    padding: 40px 40px 32px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+
+.sermon_event_div_2_RegisterNow {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.sermon_event_div_2_RegisterNow_p1 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    margin-left: -35px;
+}
+
+.sermon_event_div_2_RegisterNow_p2 {
+    margin-left: -35px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722
+}
+
+.label1 {
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #232536;
+    opacity: 0.6;
+    padding-bottom: 12px;
+}
+
+.input1 {
+    padding: 10px 0px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 1px solid #232536;
+    background-color: #F7F8FA;
+    width: 412px;
+    margin-left: 40px;
+    margin-bottom: 12px;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.label2 {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #232536;
+    opacity: 0.6;
+    padding-bottom: 12px;
+}
+
+.sermon_event_div_2_btn {
+    margin-left: 40px;
+    margin-top: 32px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1C1D28;
+    width: 227px;
+    height: 64px;
+    background: #FFD2A4;
+    border-radius: 12px;
+}
+
+/*---- upcoming_sermons_section ----*/
+
+.upcoming_sermons_h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+    margin-bottom: 64px;
+}
+
+.upcoming_sermons_list_ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.upcoming_sermons_list_ul li {
+    height: 454px;
+    width: 288.5px;
+    background-color: #FFFFFF;
+}
+
+.upcoming_sermons_list_li h4 {
+    padding-top: 24px;
+    padding-left: 220px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+
+.upcoming_sermons_list_li span {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #161722;
+}
+
+.upcoming_sermons_list_li h5 {
+    padding: 9px 20px 16px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transpa
+}
+
+.upcoming_sermons_list_li h2 {
+    padding: 0px 20px 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #161722;
+}
+
+.p1 {
+    padding: 0px 20px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.bnima {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 40px;
+}
+
+.bnima img {
+    padding-right: 10px;
+}
+
+.bnima2 {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 16px;
+}
+
+.bnima2 img {
+    padding-right: 10px;
+
+}

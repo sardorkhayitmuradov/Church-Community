@@ -519,8 +519,8 @@
 
 /* ----------- SECTION7 ----------- */
 
-.section7{
-    padding: 128px 0;
+.section7 {
+  padding: 128px 0;
 }
 
 .section7 h4:nth-child(1) {
@@ -545,9 +545,9 @@
   padding: 16px 0 64px;
 }
 
-.relationships{
-    display: flex;
-    gap: 20px;
+.relationships {
+  display: flex;
+  gap: 20px;
 }
 
 .relationships .relationship {
@@ -556,8 +556,8 @@
   padding: 48px 59px 48px 32px;
 }
 
-.relationships .relationship:nth-child(1){
-    border-bottom: 16px solid #FFD0A0;
+.relationships .relationship:nth-child(1) {
+  border-bottom: 16px solid #ffd0a0;
 }
 
 .relationship h3 {
