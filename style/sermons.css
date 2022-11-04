@@ -1,1 +1,38 @@
 @import "global.css";
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+/* -------section-1------- */
+
+
+.sec-1 {
+    height: 432px;
+    background-image: url(../images/sermons-1.jpg);
+    background-size: contain;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.sermon{
+    padding-left: 50px;
+}
+
+.sermon h4 {
+    padding-top: 160px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #232536;
+}
+
+.sermon h1{
+    font-weight: 700;
+font-size: 48px;
+color: #232536;
+}
