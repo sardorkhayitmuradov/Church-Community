@@ -221,3 +221,19 @@ padding-bottom: 70px;
 .sermon-rendum:hover{
     border-bottom: 20px solid var(--general-1);
 }
+
+
+
+a:hover{
+    border-bottom: 1px solid #161722;
+    color: #5353f3;
+}
+
+
+
+@media screen and (max-width: 1000px; ){
+    
+    
+    
+}
+ 
