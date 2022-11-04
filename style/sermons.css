@@ -82,7 +82,7 @@
 
 span {
     padding-top: 36px;
-    font-size: 16px;
+    font-size: 30px;
     position: absolute;
     margin-left: 450px;
 }
@@ -140,3 +140,64 @@ span {
 
 
 /* ----------section-3------------ */
+
+
+
+
+.sermons-sec-3{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 130px;
+}
+
+
+.sermon-rendum{
+   background-color:  #FFF5EB;
+   width: 310px;
+   height: 450px;
+   padding-left: 40px;
+   padding-bottom: 65px;
+}
+
+
+.sermon-rendum a{
+    color: #FFD0A0;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 80px;
+    padding-bottom: 16px;
+
+}
+
+
+.sermon-rendum h2{
+    font-size: 24px;
+    line-height: 28px;
+    color: #161722;
+    padding-bottom: 16px;
+
+}
+
+
+.sermon-rendum p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #161722;
+    padding-bottom: 32px;
+
+}
+
+
+.sermon-rendum h5{
+    font-weight: 400;
+    font-size: 16px;
+    color: #161722;
+    padding-bottom: 16px;
+    display: inline-block;
+
+}
+
+
+.sermon-rendum:hover{
+    border-bottom: 20px solid #FFD0A0;
+}
