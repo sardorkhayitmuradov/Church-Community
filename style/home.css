@@ -114,7 +114,7 @@
 
 .relevent > * {
   width: 32%;
-  padding: 80px;
+  padding: 80px 90px 80px 80px;
   background: #fff5eb;
   border-bottom: 16px solid #ffd2a4;
 }
@@ -616,4 +616,288 @@
   font-size: 16px;
   line-height: 24px;
   color: #161722;
+}
+
+/* ----------- RESPONSIVE ---------- */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+
+  .pictures {
+    max-width: 100%;
+  }
+  .beard {
+    max-width: 30%;
+  }
+  .beard img {
+    max-width: 100%;
+  }
+  .read {
+    max-width: 40%;
+  }
+  .read img {
+    max-width: 100%;
+  }
+  .old_lady {
+    max-width: 30%;
+  }
+  .old_lady img {
+    max-width: 100%;
+  }
+  .boxes {
+    max-width: 100%;
+  }
+  .boxes .box {
+    max-width: 25%;
+  }
+  .box img {
+    max-width: 100%;
+  }
+  .section5 .upcoming{
+    max-width: 100%;
+  }
+  .upcoming .upcoming_event{
+    max-width: 30%;
+  }
+  .upcoming > img{
+    max-width: 70%;
+    object-fit: cover;
+  }
+  .section6{
+    max-width: 100%;
+    display: flex;
+  }
+  .section6 .visit{
+    max-width: 80%;
+    margin: 128px auto;
+  }
+  .visit .visit_text{
+    max-width: 50%;
+  }
+  .visit .quote{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  .section2 {
+    width: 100%;
+  }
+  .relevent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .relevent > * {
+    padding: 40px 50px 40px 40px;
+  }
+  .relevent .about_us {
+    width: 49%;
+  }
+  .relevent .get_involved {
+    width: 49%;
+  }
+  .relevent .giving_pack {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .section3 p {
+    max-width: 100%;
+  }
+  .boxes {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .boxes .box {
+    max-width: 33.3%;
+  }
+  .section5 .upcoming{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .upcoming > img{
+    max-width: 100%;
+  }
+  .upcoming .upcoming_event{
+    max-width: 100%;
+  }
+  .section5 a:nth-child(4){
+    text-align: center;
+  }
+  .relationships{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .relationships .relationship{
+    max-width: 31%;
+  }
+}
+
+@media screen and (max-width:800px){
+  .container{
+    max-width: 100%;
+  }
+  .relationships{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .relationships .relationship{
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 100%;
+  }
+  .relevent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .relevent .about_us {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .relevent .get_involved {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .relevent .giving_pack {
+    width: 70%;
+  }
+  .read a {
+    padding: 10px 24px;
+  }
+  .boxes {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .boxes .box {
+    max-width: 50%;
+  }
+  .boxes .box h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+  }
+  .boxes .box:first-child p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+  }
+  .visit .visit_text h1{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px
+  }
+  .visit .quote{
+    display: none;
+  }
+  .visit .visit_text{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:550px){
+  .container{
+    max-width: 100%;
+  }
+  .relationships{
+    max-width: 100%;
+  }
+  .relationships .relationship{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+  .section1 h1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px;
+  }
+  .section2 h1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px;
+  }
+  .relevent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .relevent .about_us {
+    width: 90%;
+  }
+  .relevent .get_involved {
+    width: 90%;
+  }
+  .relevent .giving_pack {
+    width: 90%;
+  }
+  .section3 h1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px;
+  }
+  .read a {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .section4 h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px
+  }
+  .boxes .box h3{
+    display: none;
+  }
+  .section5 h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px
+  }
+  .upcoming .upcoming_event{
+  padding: 34px 24px;
+  }
+  .visit .visit_text h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px
+  }
+  .section7 h1{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 52px
+  }
 }

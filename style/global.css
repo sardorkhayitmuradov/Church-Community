@@ -53,6 +53,10 @@ input:focus {
   align-items: center;
 }
 
+.leftheader .hamburger {
+  display: none;
+}
+
 .leftheader hr {
   height: 80px;
   width: 4px;
@@ -96,7 +100,7 @@ input:focus {
   width: 100%;
   display: flex;
   background-color: #161722;
-  padding: 64px 0;
+  padding: 128px 0;
   margin: 0;
 }
 
@@ -209,4 +213,95 @@ input:focus {
   padding: 24px 64px;
   background: #ffd2a4;
   border-radius: 12px;
+}
+
+/* ----------- RESPONSIVE ---------- */
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  .footer_container .subscribe h1 {
+    width: 100%;
+  }
+  .footer_container .subscribe input {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    margin-bottom: 34px;
+  }
+  .footer_container .subscribe a {
+    text-align: right;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 100%;
+  }
+  .leftheader {
+    width: auto;
+  }
+  .leftheader img {
+    display: none;
+  }
+  .header .leftheader .nav_list {
+    display: none;
+  }
+  .leftheader .hamburger {
+    display: block;
+    margin-right: 15px;
+  }
+  .header_container .contactus {
+    padding: 20px 28px;
+  }
+  .footer_container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .footer_container .finsweet,
+  .quicklinks,
+  .connect {
+    width: 33.3%;
+  }
+  .footer_container .subscribe {
+    max-width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto 0;
+  }
+  .subscribe h1 {
+    text-align: center;
+  }
+  .subscribe a {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .footer_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .subscribe {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .subscribe h1 {
+    width: 100%;
+  }
 }
