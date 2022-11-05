@@ -1,1 +1,198 @@
 @import "global.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tetele>h5 {
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+margin-top: 208px;
+/* identical to box height */
+
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+/* Gradient */
+
+background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.tetele{
+    max-width: 570px;
+}
+.tetele>h1 {
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+margin-top: 16px;
+}
+
+.tetele>p {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161722;
+    margin-top: 16px;
+}
+
+.content{
+    max-width: 768px;
+    width: 100%;
+    height: 100%;
+}
+.tetele{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    max-width: 1280px;
+    margin-top: 64px;
+}
+
+.content1>p{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+/* Black */
+
+color: #161722;
+margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.content1>h1{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+margin-top: 64px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.01em;
+text-transform: uppercase;
+}
+
+.imh{
+    max-width: 768px;
+    margin-top: 48px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F2F0;
+}
+.content2 > h1{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+margin-top: 48px;
+/* identical to box height, or 138% */
+
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722; 
+
+}
+
+.content2 > p{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+margin-top: 24px;
+/* or 133% */
+
+
+/* Black */
+
+color: #161722;
+
+opacity: 0.78;
+}
+
+.content3 > h1{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 24px;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    
+    /* Black */
+    
+    color: #161722;
+}
+
+.content3 > p{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+margin-top: 24px;
+/* or 133% */
+
+
+/* Black */
+
+color: #161722;
+
+opacity: 0.78;
+}
+
+.content3 > li{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+margin-top: 32px;
+/* or 133% */
+
+
+/* Black */
+
+color: #161722;
+
+opacity: 0.78;
+}
+
+.content3 > li >p{
+    margin-top: 24px;
+
+}
